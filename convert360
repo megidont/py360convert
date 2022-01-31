@@ -3,6 +3,8 @@
 import argparse
 import numpy as np
 from PIL import Image
+import PIL
+PIL.Image.MAX_IMAGE_PIXELS = 36000000000
 
 import py360convert
 
